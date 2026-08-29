@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Practice — Your Routine</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+  :root {
+    --bg: #f4f1ea;
+    --card: #fffdf9;
+    --ink: #3c3229;
+    --ink-soft: #6b5f52;
+    --olive: #8e9a6b;
+    --olive-deep: #6f7a52;
+    --terracotta: #c1714d;
+    --sand: #e9e0cd;
+    --line: #e2d9c6;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: var(--ink);
+    padding: 48px 20px 80px;
+  }
+
+  .page {
+    max-width: 740px;
+    margin: 0 auto;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  header .eyebrow {
+    font-size: 20px;
+    color: var(--olive-deep);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  header h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.15;
+    color: var(--ink);
+  }
+
+  .step {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 32px 36px;
+    margin-bottom: 28px;
+    box-shadow: 0 2px 10px rgba(60, 50, 41, 0.05);
+  }
+
+  .step-head {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 18px;
+  }
+
+  .badge {
+    flex: none;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: #ffffff;
+    background: var(--olive);
+  }
+
+  .step h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    color: var(--ink);
+  }
+
+  .step .when {
+    font-size: 17px;
+    color: var(--ink-soft);
+    font-weight: 400;
+    margin-top: 2px;
+  }
+
+  .step p, .step li {
+    font-size: 19px;
+    line-height: 1.65;
+    color: var(--ink);
+  }
+
+  .step ul {
+    margin: 0;
+    padding-left: 24px;
+  }
+
+  .step li {
+    margin-bottom: 10px;
+  }
+
+  .step li:last-child { margin-bottom: 0; }
+
+  .step b { color: var(--olive-deep); }
+
+  .divider {
+    text-align: center;
+    font-size: 22px;
+    color: var(--terracotta);
+    margin: 40px 0 28px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .pill-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 6px;
+  }
+
+  .pill {
+    background: var(--sand);
+    color: var(--olive-deep);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 999px;
+  }
+
+  .note {
+    background: var(--sand);
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin-top: 44px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+  }
+
+  .note b { color: var(--ink); }
+
+  footer {
+    text-align: center;
+    margin-top: 44px;
+    font-size: 16px;
+    color: var(--ink-soft);
+  }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 34px; }
+    .step { padding: 26px 22px; }
+    .step h2 { font-size: 22px; }
+    .step p, .step li { font-size: 18px; }
+  }
+
+  .tabs {
+    max-width: 740px;
+    margin: 0 auto 36px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .tab-btn {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--olive-deep);
+    background: var(--sand);
+    border: none;
+    border-radius: 999px;
+    padding: 12px 26px;
+    cursor: pointer;
+  }
+
+  .tab-btn.active {
+    background: var(--olive);
+    color: #ffffff;
+  }
+
+  .tab-page { display: none; }
+  .tab-page.active { display: block; }
+
+  .why {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 28px 36px;
+    margin-bottom: 28px;
+    font-size: 19px;
+    line-height: 1.65;
+  }
+
+  .why b { color: var(--olive-deep); }
+
+  table.filetable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+
+  table.filetable th, table.filetable td {
+    text-align: left;
+    padding: 12px 10px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  table.filetable th {
+    color: var(--olive-deep);
+    font-weight: 700;
+  }
+
+  table.filetable code {
+    background: var(--sand);
+    padding: 2px 7px;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+
+  @media (max-width: 600px) {
+    .tab-btn { font-size: 15px; padding: 10px 16px; }
+    .why { padding: 22px 20px; font-size: 17px; }
+    table.filetable { font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="showPage('daily', this)">Daily routine</button>
+  <button class="tab-btn" onclick="showPage('setup', this)">Project chat setup</button>
+</div>
+
+<div class="page tab-page active" id="page-daily">
+
+  <header>
+    <div class="eyebrow">B1 → B2</div>
+    <h1>What to do, every day</h1>
+  </header>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">1</div>
+      <div>
+        <h2>Prep</h2>
+        <div class="when">Here, in Cowork — 1 minute</div>
+      </div>
+    </div>
+    <p>Just say <b>"prep."</b> A short brief gets written for you — today's topic, today's
+    method, what to target, a phrase or two due for review. Copy it.</p>
+  </div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">2</div>
+      <div>
+        <h2>Talk</h2>
+        <div class="when">In the Claude Project, voice mode — ~45 min</div>
+      </div>
+    </div>
+    <p>Paste the brief in and have the real conversation — roleplay, debate, a fluency
+    drill, whatever it picked. At the end you'll get a summary block to copy.</p>
+    <div class="pill-row">
+      <span class="pill">Busy day? 15–20 min is fine</span>
+      <span class="pill">Short beats skipped</span>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">3</div>
+      <div>
+        <h2>Debrief</h2>
+        <div class="when">Back here — 1 minute</div>
+      </div>
+    </div>
+    <p>Paste that summary block and say <b>"debrief."</b> Everything gets logged and you
+    get one real strength and one real weakness back — no padding.</p>
+  </div>
+
+  <div class="divider">and, separately</div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">☺</div>
+      <div>
+        <h2>Solo routine</h2>
+        <div class="when">On your own, no AI needed — 10 min</div>
+      </div>
+    </div>
+    <ul>
+      <li><b>5 min shadowing</b> — play a short clip of a native speaker, repeat right
+      behind them, copy the rhythm, not just the words.</li>
+      <li><b>3 min phrase practice</b> — take 3 due phrases and use each one in a new
+      sentence about your own life.</li>
+      <li><b>2 min listening</b> — anything you enjoy, no effort required.</li>
+    </ul>
+    <p style="margin-top:18px; margin-bottom:0;">An email lands at <b>8:00 AM Tehran</b>
+    every day with today's phrases and one mistake to watch — that's your reminder.</p>
+  </div>
+
+  <div class="note">
+    <b>Weekly (10 min):</b> re-read your error log out loud, say each corrected
+    sentence once, correctly.<br><br>
+    <b>Every 2–4 weeks:</b> say <b>"assess"</b> for an honest, unaided check of where
+    you actually are.
+  </div>
+
+  <footer>Everything else — logging, tracking, deciding what to practice next — isn't on you.</footer>
+
+</div>
+
+<div class="page tab-page" id="page-setup">
+
+  <header>
+    <div class="eyebrow">One-time, then background</div>
+    <h1>Setting up the Project chat</h1>
+  </header>
+
+  <div class="why">
+    Two Claudes, one system. <b>Cowork</b> (here) has the live files but no real-time
+    voice. The <b>Claude Project</b> on claude.ai has voice but no access to these
+    files — it only knows what gets pasted into it. So: Cowork prepares, the Project
+    talks, Cowork records.
+  </div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">1</div>
+      <div>
+        <h2>Create the Project</h2>
+        <div class="when">claude.ai → Projects → Create Project</div>
+      </div>
+    </div>
+    <p>Name it something like <b>"English Practice — B1 to B2."</b></p>
+  </div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">2</div>
+      <div>
+        <h2>Paste the instructions</h2>
+        <div class="when">Project settings → Instructions</div>
+      </div>
+    </div>
+    <p>Open <b>CLAUDE.md</b> in this folder, copy the whole file, paste it into the
+    Project's custom instructions field. That one file <i>is</i> the rulebook — rules,
+    the daily structure, the "do NOT" list, all of it.</p>
+  </div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">3</div>
+      <div>
+        <h2>Add knowledge (optional, recommended)</h2>
+        <div class="when">Project settings → Knowledge</div>
+      </div>
+    </div>
+    <p>Upload these so the Project has real context instead of guessing:</p>
+    <div class="pill-row">
+      <span class="pill">method.md</span>
+      <span class="pill">tips.md</span>
+      <span class="pill">topics.md</span>
+      <span class="pill">error-log.md</span>
+      <span class="pill">phrase-bank.md</span>
+    </div>
+    <p style="margin-top:16px; margin-bottom:0;"><b>method.md, tips.md, topics.md</b> are
+    static — upload once. <b>error-log.md and phrase-bank.md</b> change after every
+    debrief, so re-upload those two every few weeks or the Project starts correcting
+    mistakes you've already fixed.</p>
+    <p style="margin-top:16px; margin-bottom:0;"><b>Not needed here:</b> notes.md,
+    progress.md, strengths.md, references.md, research-plan.md — those stay in Cowork,
+    the Project doesn't need them to run a session.</p>
+  </div>
+
+  <div class="divider">using it, every day</div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">➜</div>
+      <div>
+        <h2>The loop</h2>
+        <div class="when">Same three steps as the Daily routine tab</div>
+      </div>
+    </div>
+    <p><b>Prep here</b> → say "prep," copy the brief it writes.<br>
+    <b>Talk there</b> → open the Project, tap the voice icon, paste the brief, have the
+    conversation, copy the end-summary block it gives you.<br>
+    <b>Debrief here</b> → paste that block back, say "debrief."</p>
+    <p style="margin-top:16px; margin-bottom:0;">Skipping debrief isn't a small thing —
+    the Project remembers nothing between chats, so this folder is the <i>only</i> place
+    anything persists. Skip it and next time's prep is working blind.</p>
+  </div>
+
+  <div class="note">
+    <b>Key files, if you're ever unsure where something lives:</b>
+    <table class="filetable">
+      <tr><th>File</th><th>Role</th><th>Where</th></tr>
+      <tr><td><code>CLAUDE.md</code></td><td>the whole rulebook</td><td>Project instructions</td></tr>
+      <tr><td><code>method.md, tips.md, topics.md</code></td><td>static reference</td><td>Project knowledge, once</td></tr>
+      <tr><td><code>error-log.md, phrase-bank.md</code></td><td>the memory — updated every debrief</td><td>Project knowledge, refresh every few weeks</td></tr>
+      <tr><td><code>working/session-brief.md</code></td><td>the paste-bridge, rewritten every prep</td><td>Cowork only</td></tr>
+      <tr><td><code>notes.md, progress.md, strengths.md</code></td><td>running logs and numbers</td><td>Cowork only</td></tr>
+      <tr><td><code>references.md, research-plan.md</code></td><td>listening sources, original research</td><td>Cowork only</td></tr>
+    </table>
+  </div>
+
+  <footer>This page replaces the old README — nothing else to read before you start.</footer>
+
+</div>
+
+<script>
+  function showPage(name, btn) {
+    document.querySelectorAll('.tab-page').forEach(function(el) { el.classList.remove('active'); });
+    document.querySelectorAll('.tab-btn').forEach(function(el) { el.classList.remove('active'); });
+    document.getElementById('page-' + name).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
