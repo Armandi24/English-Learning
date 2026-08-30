@@ -6,7 +6,7 @@
 **Voice practice:** Claude Project on claude.ai, built from `project-chat/`.
 Workflow: prep here → talk in the Project → debrief here. See `project-chat/README.md`.
 
-**Last tip used:** #1 (2026-08-25) — "Push past the first answer." Next `prep` uses #2.
+**Last tip used:** #2 (2026-08-30) — "He/she is not automatic for you." Next `prep` uses #3.
 
 **Last session:** 2026-08-25 (session 1) — client design presentation roleplay + 4/3/2.
 Weakness to hunt next: irregular past tense (choose/become/graduate). Strength to

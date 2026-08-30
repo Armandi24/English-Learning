@@ -1,31 +1,19 @@
-<!--
-This file is overwritten by "prep" every time. It is the ONLY bridge between
-Cowork and the Claude Project — the Project has no live access to this folder,
-so whatever isn't in this file, it doesn't know.
--->
+# Session Brief — 2026-08-30 (Session 2)
 
-# Session brief — 2026-08-25
+**Topic/method:** Debate — "AI will replace most architecture jobs within ten years." Take the opposite side of whatever he argues, push hard follow-ups, force him past his first answer ("that's the easy version — what about X?"). No corrections during. Then 4/3/2 (block 3), topic: "Something I believe about my field that most people disagree with."
 
-**Topic:** Roleplay — client design presentation. You present a design concept; I'm
-the client with objections about cost and timeline. I don't love the first idea.
-(source/topics.md #1)
-**Method:** 1. Roleplay/simulation. React like a real skeptical client, push back,
-no corrections during. Then 10 min 4/3/2 fluency drill: "Why I got into architecture."
-**Target 2-3 mistakes:** First session — no error history yet. Watch the Persian-L1
-list instead: he/she confusion, missing articles, plural after numbers, present
-perfect vs. past simple. Log whatever actually shows up.
-**Do NOT re-teach:** Nothing confirmed yet — no strengths or fixed errors on file.
-**Phrase-bank picks (due for review):** None yet — bank is empty, this is session 1.
-**Tip #1:** Push past the first answer. If your reply is short and safe, that's the
-signal to add "why" or an example — not to stop.
+**Target these 3-6 errors (end summary only):**
+1. Irregular past tense: choose→chose, become→became (recurring pattern, watch closely)
+2. "graduated FROM high school" — missing preposition after past tense
+3. Word order: object before "with clients" (e.g. "discuss buying materials with clients," not reversed)
+4. Superlatives need "the" ("the best," not "best")
 
----
+**Do NOT re-teach:** nothing confirmed fixed yet (first full debrief). Note but don't over-praise: 4/3/2 held together and sped up in session 1 — not yet confirmed as a strength (needs 2+ sessions).
 
-**Instruction line for the Project-side Claude:**
-> Paste this whole brief into the chat. Open with the fixed voice reminder + tip #1
-> above, then run the session per source/method.md: warm-up (5 min) → roleplay
-> "client design presentation" (20 min) → 4/3/2 drill on "Why I got into architecture"
-> (10 min) → end summary (3-6 corrections, 5 phrases to steal, one honest progress
-> line, 2 chunks for the bank). This is session 1 — no error/strength/phrase history
-> exists, so build the first entries from scratch. End with the copyable summary
-> block from project-instructions.md.
+**Phrase-bank due for review (ask him to use in a new sentence, don't just recognize):**
+- "ballpark figure" (a rough estimate)
+- "run in parallel" (do two things at once)
+
+**Today's tip (#2):** He/she is not automatic for him — Persian «او» has no gender. Slow down on this pronoun specifically until it's reflexive.
+
+**Instruction to Project-side Claude:** Run the standard 45-min shape from `source/method.md` (warm-up → debate → 4/3/2 → end summary). Real B2 speed, idioms, contractions — no slowing down. Don't interrupt mid-thought; corrections at the end only, capped at 3-6, prioritizing the list above. No empty praise. Log WPM per 4/3/2 round. End with the standard summary block (corrections, 5 phrases to steal, one honest strength + one honest weakness, chunks used) so it can be pasted back here for debrief.
