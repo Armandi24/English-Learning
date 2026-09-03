@@ -16,7 +16,7 @@ Format: `Date confirmed | What's solid | Evidence`
 
 | Date confirmed | What's solid | Evidence |
 |---|---|---|
-| 2026-09-03 | Sustained output under pressure — doesn't freeze, talks through gaps, stays in English | S1 (2026-08-25): held a debate position under pushback. S2 (2026-09-03): 230-word unbroken Round 1 turn + one unprompted mid-sentence self-correction. |
+| 2026-09-03 | Sustained output under pressure — doesn't freeze, talks through gaps, stays in English | S1 (2026-08-25): held a debate position under pushback. S2 (2026-09-03): 230-word unbroken Round 1 turn + one unprompted mid-sentence self-correction. S3 (2026-09-03): debate line held under pushback; sentences running longer without stalling to self-correct mid-thought. |
 
 ---
 

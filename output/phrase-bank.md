@@ -26,6 +26,11 @@ At `review`, drill only what's **due**. Retrieval first — never show the phras
 | ballpark figure | a rough estimate, not exact | (noticed in session, not yet used in own sentence) | 0 | 2026-08-26 |
 | run in parallel | do two things at the same time | "they can work almost in parallel" (2026-09-03, roleplay — near-miss, weak use) | 1 | 2026-09-06 |
 | a step change from X | a big jump in quality, not gradual | "Persistent memory is a step change from a normal chatbot." | 0 | 2026-09-04 |
+| trading X for Y | giving up one thing to get another | — | 0 | 2026-09-04 |
+| spread the risk across clients | not depending on one source of income | — | 0 | 2026-09-04 |
+| no safety net | no backup if it fails | — | 0 | 2026-09-04 |
+| rent money | money you can't afford to gamble with | — | 0 | 2026-09-04 |
+| "that's not a plan, that's optimism" | dismiss a hope dressed up as a plan | — | 0 | 2026-09-04 |
 
 ---
 

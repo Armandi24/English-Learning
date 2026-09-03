@@ -68,14 +68,15 @@ Free online placement test. **Baseline / day 45 / day 90.**
 
 | Metric | Value |
 |---|---|
-| Total sessions | 2 |
-| Sessions this month | 1 |
+| Total sessions | 3 |
+| Sessions this month | 2 |
 | Longest run of consecutive days | 1 |
 | Last session | 2026-09-03 |
 
-> Sessions 1 (2026-08-25) and 2 (2026-09-03) both ran text-mode in the folder, no
-> clock — so the WPM and uninterrupted-speech tables above have no entries yet. They
-> start filling once voice sessions run in the Project. CEFR/vocab baselines still not taken.
+> Sessions 1-3 all ran text-mode in the folder, no clock (2026-09-03 held two:
+> sessions 2 and 3) — so the WPM and uninterrupted-speech tables above have no entries
+> yet. They start filling once voice sessions run in the Project. 4/3/2 has now been
+> postponed twice. CEFR/vocab baselines still not taken.
 
 > Streaks help, but a broken streak makes people quit. **Missing a day is not a
 > failure and does not reset anything.** The only number that matters here is total sessions.

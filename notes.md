@@ -10,13 +10,15 @@ Workflow: prep here → talk in the Project → debrief here. Setup guide:
 
 **Last tip used:** #3, `prep` 2026-09-03 (session 3, debate prep). Next `prep` uses #4.
 
-**Last session:** 2026-09-03 (session 2) — client design presentation roleplay + 4/3/2 on
-"AI workspace setup". Ran inline in the folder (text, no voice), not via the Project.
-Weakness to hunt next: **regular past -ed dropping under speed** (start→started,
-design→designed) — pervasive today, now the #1 target over the irregular-past set.
-Also: no "to"/"-ing" before verbs ("be able manage"). Strength confirmed across 2
-sessions: sustained output, doesn't freeze. 4/3/2 done as length-compression (15→6→3
-sentences) since text has no clock — no WPM numbers. `output/progress.md` still weekly-only.
+**Last session:** 2026-09-03 (session 3) — debate method, topic freelancing vs. a
+salaried studio job. Ran inline in the folder (text, no voice). Weakness to hunt next:
+**regular past -ed dropping under speed** ("I invent" → invented) — 2nd session on this,
+still not fixed, needs a targeted drill not just in-session catches. Also new: "I am
+agree" (extra auxiliary before a plain verb), "access to X" (drop the "to"), missing
+"would" for hypotheticals. Strength confirmed across 3 sessions: sustained output,
+sentences now lengthening without mid-thought stalls. **4/3/2 skipped again — postponed
+twice now, run it next session.** `output/progress.md`: session count bumped to 3,
+rest still weekly-only.
 
 **Daily reminder routine:** `trig_01Vp55SDdmGSZyRHnMgwFQvC` ("English daily routine
 reminder (Cowork)"), fires daily 8:00 AM Asia/Tehran (cron `30 4 * * *` UTC). Reads
