@@ -35,13 +35,30 @@ Accept **casual wording**. Never require an exact phrase. If the intent is obvio
 
 | Command | Triggers on anything like | What it does |
 |---|---|---|
-| **prep** | "prep", "let's start", "get me ready" | Read `notes.md`, `output/error-log.md`, `output/strengths.md`, `output/phrase-bank.md`. Overwrite `working/session-brief.md` (paste-ready, under ~20 lines): today's topic, today's method, 2-3 mistakes to target, what NOT to re-teach (confirmed strengths / already-fixed errors), phrase-bank picks due for review, today's tip number from `source/tips.md`, and an instruction line for the Project-side Claude. Bump the tip number in `notes.md`. Tell him to copy the brief into the Project. |
-| **session** | "session", "let's talk", "go", or just launching into English | Only relevant here if voice isn't available — run the practice inline per `source/method.md`. Normally this happens in the Project instead. |
-| **debrief** | "debrief", "log it", "done", "that's enough" | He pastes back or describes what happened. Save the raw session to `working/sessions/Session_YYYY-MM-DD_Topic.md`. Update `output/error-log.md` (new mistakes, or bump "Times" on repeats). Promote errors that have stopped recurring to `output/strengths.md` and out of the active error log. Add new phrases to `output/phrase-bank.md`. Overwrite `output/daily-recap.md` with just today's mistakes + new words, short — this is what the morning email reads. Update `notes.md`. Update `output/progress.md` **only weekly**, not every session. Report back one real strength and one real weakness — nothing softer than that. |
+| **prep** | "prep", "let's start", "get me ready" | **First, sync down** — run `git -C "D:/My Drive/Cowork/English" pull` so any practice done on another device (iPad via GitHub) is pulled in before prepping. If it reports a conflict, resolve it before continuing. Then: read `notes.md`, `output/error-log.md`, `output/strengths.md`, `output/phrase-bank.md`. Overwrite `working/session-brief.md` (paste-ready, under ~20 lines): today's topic, today's method, 2-3 mistakes to target, what NOT to re-teach (confirmed strengths / already-fixed errors), phrase-bank picks due for review, today's tip number from `source/tips.md`, and an instruction line for the Project-side Claude. Bump the tip number in `notes.md`. Tell him to copy the brief into the Project. |
+| **session** | "session", "let's talk", "go", or just launching into English | Run the practice inline per `source/method.md` — warm-up → one rotation method → 4/3/2 → end summary. Do NOT redirect him to the voice Project; if he wants voice mode he'll say so. Log it after with `debrief`. |
+| **debrief** | "debrief", "log it", "done", "that's enough" | He pastes back or describes what happened. Save the raw session to `working/sessions/Session_YYYY-MM-DD_Topic.md`. Update `output/error-log.md` (new mistakes, or bump "Times" on repeats). Promote errors that have stopped recurring to `output/strengths.md` and out of the active error log. Add new phrases to `output/phrase-bank.md`. Overwrite `output/daily-recap.md` with just today's mistakes + new words, short — this is what the morning email reads. Update `notes.md`. Update `output/progress.md` **only weekly**, not every session. Report back one real strength and one real weakness — nothing softer than that. **Finally, sync up** — `cd "D:/My Drive/Cowork/English"` then `git add -A && git commit -m "debrief YYYY-MM-DD <topic>" && git push`. This is what lets the iPad pick up today's session. If running the session inline in the folder, skip the "copy this block back" paste-block — that's only for the memoryless voice Project. |
 | **review** | "review", "quiz me", "drill" | 5-10 min spaced-recall drill on due chunks from `output/phrase-bank.md`. Retrieval first — never show the phrase before asking for it. |
 | **assess** | "assess", "test me", "where am I?" | Every 2-4 weeks. Unaided check, no hints, no help. Score honestly against `output/progress.md` metrics. |
 
 If he just starts speaking English at you without a command — treat it as a session and log it after.
+
+---
+
+## Device sync — Google Drive ⇄ GitHub
+
+This folder lives on Google Drive (primary, on the laptop) **and** is mirrored to
+GitHub (`github.com/Armandi24/English-Learning`, branch `main`) so he can practice
+from the iPad. Both copies must stay identical. The rule:
+
+- **`prep` pulls first** (`git pull`) — picks up anything done on the iPad.
+- **`debrief` pushes last** (`git add -A && git commit && git push`) — sends the session to GitHub.
+- Direct commits to `main`. No branches, no pull requests — this is one person, not a team.
+- Wait for Google Drive to finish syncing before running git. Never practice on two devices at once.
+- On the iPad: a git client (e.g. Working Copy) opens the same repo; pull before, push after.
+
+If a `git pull` reports a conflict, resolve it (usually a one-line clash in `notes.md`)
+before doing anything else. Don't leave the two copies diverged.
 
 ---
 
