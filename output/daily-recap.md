@@ -6,19 +6,20 @@ new words, in short form — not a cumulative log. (Full history lives in
 
 ---
 
-**Date:** 2026-08-25
+**Date:** 2026-09-03
 
 **Mistakes to remember:**
-- "I chose architecture" / "I became an architect" — irregular past tense, not "choose/become"
-- "a lot of" — not "a lots of" (said 3 times today)
-- "salesmen" — not "salesmans"
-- "on-site decisions" — not "in site decisions"
-- "the best material" — superlatives need "the"
+- "last month I **started** doing" — not "I start doing". The -ed ending drops when you speed up (start/design/inspire).
+- "I **did** it" / "I've **done** it" — not "I done it". "done" needs "have" in front of it.
+- "3 **teams**", "8 **months**" — after a number, the noun is plural.
+- "I **chose** glass" — not "I choose glass". (2nd session for choose→chose.)
+- "be able **to** manage", "**for taking** care" — a "to" or "-ing" is missing before the verb.
+- "**all my** projects" — not "my all projects".
 
 **Words/phrases learned today:**
-- **ballpark figure** — a rough estimate
-- **run in parallel** — do two things at the same time
+- **a step change from X** — a big jump in quality, not gradual
+- **run X in parallel** — do several things at the same time
 
-**One line:** Held a real debate position under pressure today (B2-level content)
-but small function words — quantifiers, prepositions, articles — still slip when
-the pressure is on.
+**One line:** Sustained a 230-word unbroken turn and self-corrected once without help —
+output stamina is real. But regular past-tense -ed collapses under speed, and that
+alone still reads as B1. Fix that first.

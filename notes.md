@@ -6,12 +6,15 @@
 **Voice practice:** Claude Project on claude.ai, built from `project-chat/`.
 Workflow: prep here → talk in the Project → debrief here. See `project-chat/README.md`.
 
-**Last tip used:** #2 (2026-08-30) — "He/she is not automatic for you." Next `prep` uses #3.
+**Last tip used:** #2 surfaced in the 2026-08-30 debate prep; today's inline session (2026-09-03) re-used #1 by mistake (started without `prep`). Next `prep` uses #3.
 
-**Last session:** 2026-08-25 (session 1) — client design presentation roleplay + 4/3/2.
-Weakness to hunt next: irregular past tense (choose/become/graduate). Strength to
-watch for a repeat: 4/3/2 held together and sped up across rounds. `output/progress.md`
-not updated yet — weekly only, first update due after week 1.
+**Last session:** 2026-09-03 (session 2) — client design presentation roleplay + 4/3/2 on
+"AI workspace setup". Ran inline in the folder (text, no voice), not via the Project.
+Weakness to hunt next: **regular past -ed dropping under speed** (start→started,
+design→designed) — pervasive today, now the #1 target over the irregular-past set.
+Also: no "to"/"-ing" before verbs ("be able manage"). Strength confirmed across 2
+sessions: sustained output, doesn't freeze. 4/3/2 done as length-compression (15→6→3
+sentences) since text has no clock — no WPM numbers. `output/progress.md` still weekly-only.
 
 **Daily reminder routine:** `trig_01Vp55SDdmGSZyRHnMgwFQvC` ("English daily routine
 reminder (Cowork)"), fires daily 8:00 AM Asia/Tehran (cron `30 4 * * *` UTC). Reads

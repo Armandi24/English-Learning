@@ -24,7 +24,8 @@ At `review`, drill only what's **due**. Retrieval first — never show the phras
 | Chunk | Meaning | My example sentence | Uses | Next review |
 |---|---|---|---|---|
 | ballpark figure | a rough estimate, not exact | (noticed in session, not yet used in own sentence) | 0 | 2026-08-26 |
-| run in parallel | do two things at the same time | (noticed in session, not yet used in own sentence) | 0 | 2026-08-26 |
+| run in parallel | do two things at the same time | "they can work almost in parallel" (2026-09-03, roleplay — near-miss, weak use) | 1 | 2026-09-06 |
+| a step change from X | a big jump in quality, not gradual | "Persistent memory is a step change from a normal chatbot." | 0 | 2026-09-04 |
 
 ---
 
