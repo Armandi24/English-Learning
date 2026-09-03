@@ -10,6 +10,9 @@ Workflow: prep here → talk in the Project → debrief here. Setup guide:
 
 **Last tip used:** #3, `prep` 2026-09-03 (session 3, debate prep). Next `prep` uses #4.
 
+**Last solo:** none yet — first `solo` starts at stage 1 (delayed), drill = shadow.
+**Last weekly test:** none yet.
+
 **Last session:** 2026-09-03 (session 3) — debate method, topic freelancing vs. a
 salaried studio job. Ran inline in the folder (text, no voice). Weakness to hunt next:
 **regular past -ed dropping under speed** ("I invent" → invented) — 2nd session on this,

@@ -13,6 +13,11 @@ If you understand 95%, it's too easy to grow from. If under 50%, you're just end
 Short clips, clear speech, 1-2 sentences at a time. Repeat ~1-2 seconds behind the
 speaker, copying **rhythm and stress** — not just the words. ~10 min a day.
 
+The **`solo`** command searches for a fresh episode + a specific 60-90s clip each time,
+matched to his level and current error log. The table below is the fallback pool and the
+place to note what's actually worked. Any source **with a transcript** doubles as
+read-aloud material.
+
 | Source | Level | Notes |
 |---|---|---|
 | BBC "6 Minute English" | B1-B2 | Transcripts available. Good starting point. |

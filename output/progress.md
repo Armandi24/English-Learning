@@ -64,6 +64,17 @@ Free online placement test. **Baseline / day 45 / day 90.**
 
 ---
 
+## Weekly test — score
+
+Closed-book, no hints. Error-log retrieval + phrase recall + one 4/3/2 R1 round. Same
+format every week so the number means something. A down week is not smoothed over.
+
+| Date | Error-log hits | Phrase hits | R1 WPM | Score | Missed → targeted next |
+|---|---|---|---|---|---|
+| | | | | | |
+
+---
+
 ## Session count
 
 | Metric | Value |

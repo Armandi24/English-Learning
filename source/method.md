@@ -79,24 +79,59 @@ shadowing routine below — it doesn't replace it.
 
 ---
 
-## Solo routine — daily, 10 min, no Claude needed live
+## Solo routine — daily, ~10 min, no Claude needed live
 
-This is the other half of the program: input + fluency, done alone. Shadowing only works
-at a real dose — roughly 10-15 min, 3-4x/week, for about 6 weeks — before listening
-comprehension actually moves. Once a month does nothing. This does not count against the
-45-minute AI session; it's separate, and it's what makes the AI sessions work better.
+The other half of the program: input + fluency, done alone. Say **"solo"** in the folder
+and you get today's prescription in a few lines — one episode, one clip, the stage, the
+drill, 3 phrases — built fresh each time against the error log. Everything below is what
+that prescription is drawn from; the point is it's already decided for you.
 
-| Block | Time | What |
-|---|---|---|
-| **Shadowing** | 5 min | Play a short native-speaker clip (see `source/references.md`), repeat right behind them, copying rhythm and music, not just words. Same clip several days running is fine and actually good. |
-| **Phrase drilling** | 3 min | Take 3 phrases from `output/phrase-bank.md`, say each one out loud in a new sentence about real life. |
-| **Listening** | 2 min | Anything enjoyable, where most of it is already understood. No effort needed — this is just volume. |
+Shadowing only works at a real dose — roughly **10-15 min, 3-4x/week, for about 6 weeks**
+— before listening comprehension actually moves. Once a month does nothing. Separate from
+the 45-minute AI session; it's what makes the AI sessions land.
 
-**Weekly review (10 min, once a week):** update `output/progress.md`, read the error log
-out loud, say each corrected sentence once, correctly.
+**Shadowing has three stages, in order. Move up only when the current clip feels easy:**
+1. **Delayed + meaning-focused** — repeat 1-2s behind, understand what you're saying.
+2. **Simultaneous** — no gap, speak over the audio. No time to translate in your head. That's the point.
+3. **Prosodic** — deliberately copy stress, rhythm, and melody, not just the sounds.
 
-The daily reminder email (see `notes.md` for the routine id) is the trigger for this —
-nothing else prompts it, so without the email it tends to quietly stop happening.
+Do it **out loud, walking if you can** — the physical rhythm anchors the speech rhythm
+and stops you drifting off.
+
+**The 5-minute speaking drill rotates — one per day, not the same as yesterday:**
+
+| Drill | What |
+|---|---|
+| **Shadow** | The `solo` clip, at your current stage. Same clip several days running is fine and good. |
+| **Record + compare** | Speak 60-90s on a topic, play it back against the model, name the one biggest gap. You hear your real mistakes only on playback. |
+| **Read-aloud** | A transcript passage — copy the speaker's stress and speed, don't just decode words. Good for tired days. |
+| **Self-talk** | Narrate what you're doing or planning, aloud, in English. Cheap reps, no material needed. |
+
+Then always: **3 min phrase drilling** (3 due phrases from `output/phrase-bank.md`, each
+in a new real-life sentence) + **2 min easy listening** (anything enjoyable, mostly
+understood — just volume).
+
+**Content rule:** aim for **70-80% understood on first listen.** 95% is too easy to grow
+from; under 50% is just noise.
+
+The daily reminder email (see `notes.md` for the routine id) is the trigger — nothing
+else prompts it, so without the email it quietly stops happening.
+
+---
+
+## Weekly test — graded, once a week, ~15 min
+
+Replaces the old "read the error log aloud" review. The gain is in **retrieval** —
+producing the answer from memory, not seeing it again. Say **"weekly"** in the folder.
+
+Closed-book, no hints, scored:
+1. **Error-log retrieval** — given the situation, he produces the corrected sentence cold. Each one hit or missed. A miss keeps its `Times` count and is targeted in the next `prep`.
+2. **Phrase-bank recall** — due chunks, cued by meaning only. Produce the phrase, then a new sentence with it.
+3. **One 4/3/2 R1 round** — a WPM number for `output/progress.md`.
+
+Score out of the fixed total → **Weekly test** table in `output/progress.md`. A bad week
+stays on the page. This is enforcement; `assess` (every 2-4 weeks, unaided) stays the
+real level check.
 
 ---
 
