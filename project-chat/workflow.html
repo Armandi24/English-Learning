@@ -246,6 +246,7 @@
 
 <div class="tabs">
   <button class="tab-btn active" onclick="showPage('daily', this)">Daily routine</button>
+  <button class="tab-btn" onclick="showPage('devices', this)">Where to practice</button>
   <button class="tab-btn" onclick="showPage('setup', this)">Project chat setup</button>
 </div>
 
@@ -278,6 +279,9 @@
     </div>
     <p>Paste the brief in and have the real conversation — roleplay, debate, a fluency
     drill, whatever it picked. At the end you'll get a summary block to copy.</p>
+    <p style="margin-top:14px; margin-bottom:0;">No time for voice? You can also just
+    say <b>"prep"</b> and <b>"let's practice"</b> in one place — laptop or iPad — and
+    do the whole session as text. See the <b>Where to practice</b> tab.</p>
     <div class="pill-row">
       <span class="pill">Busy day? 15–20 min is fine</span>
       <span class="pill">Short beats skipped</span>
@@ -325,6 +329,81 @@
   </div>
 
   <footer>Everything else — logging, tracking, deciding what to practice next — isn't on you.</footer>
+
+</div>
+
+<div class="page tab-page" id="page-devices">
+
+  <header>
+    <div class="eyebrow">Laptop · iPad · Voice</div>
+    <h1>Where to practice</h1>
+  </header>
+
+  <div class="why">
+    The files live in <b>two mirrored places</b>: Google Drive on the laptop, and
+    GitHub (<code>Armandi24/English-Learning</code>) for the iPad. They stay identical
+    because <b>"prep"</b> pulls the latest before every session and <b>"debrief"</b>
+    pushes it back after. You don't run any of that by hand.
+  </div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">A</div>
+      <div>
+        <h2>Text, on the laptop</h2>
+        <div class="when">Cowork — simplest</div>
+      </div>
+    </div>
+    <p>Say <b>"prep"</b>, then <b>"let's practice"</b>. The whole session and the
+    debrief happen right here. Nothing to copy or paste.</p>
+  </div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">B</div>
+      <div>
+        <h2>Voice, in the Claude Project</h2>
+        <div class="when">claude.ai — ~45 min spoken</div>
+      </div>
+    </div>
+    <p><b>Prep here</b> → copy the brief. <b>Talk in the Project</b> (voice) → paste
+    the brief, have the conversation, copy the summary block. <b>Debrief here</b> →
+    paste it back, say "debrief".</p>
+    <p style="margin-top:14px; margin-bottom:0;">Voice always starts and ends on a
+    device with the files — the Project itself saves nothing.</p>
+  </div>
+
+  <div class="step">
+    <div class="step-head">
+      <div class="badge">C</div>
+      <div>
+        <h2>Text, on the iPad</h2>
+        <div class="when">Claude app → Code tab — needs Pro or Max</div>
+      </div>
+    </div>
+    <p><b>One-time:</b> open the Claude app, tap <b>Code</b>, connect GitHub, pick
+    <code>English-Learning</code>.</p>
+    <p style="margin-top:14px;"><b>Each session:</b> Code tab → choose the repo and the
+    <code>main</code> branch → say <b>"prep"</b>, practise, say <b>"debrief"</b>. It
+    makes a fresh copy of the files itself, so there's no manual "pull".</p>
+    <p style="margin-top:14px; margin-bottom:0;">At the end it saves to a
+    <b>branch</b>, not <code>main</code>. Tap <b>Create PR</b>, then <b>merge it on
+    GitHub</b> — one tap. Your next laptop "prep" pulls that work down.</p>
+  </div>
+
+  <div class="note">
+    <b>Two rules that keep the copies from tangling:</b>
+    <ul style="margin:12px 0 0; padding-left:22px;">
+      <li>Wait for Google Drive to finish syncing before starting on the laptop.</li>
+      <li>One device at a time — never practise on the laptop and iPad at once.</li>
+    </ul>
+    <br>
+    Switched devices and just want to catch up without a session? On the laptop, say
+    <b>"sync"</b>.
+  </div>
+
+  <footer>Same command words everywhere. Only the last step differs: laptop saves to
+  <code>main</code>; iPad goes through a one-tap PR merge.</footer>
 
 </div>
 
@@ -421,6 +500,10 @@
       <tr><td><code>notes.md, progress.md, strengths.md</code></td><td>running logs and numbers</td><td>Cowork only</td></tr>
       <tr><td><code>references.md, research-plan.md</code></td><td>listening sources, original research</td><td>Cowork only</td></tr>
     </table>
+    <br>
+    The whole folder is also mirrored to <b>GitHub</b>
+    (<code>Armandi24/English-Learning</code>) so it works from the iPad. "prep" pulls
+    and "debrief" pushes automatically — see the <b>Where to practice</b> tab.
   </div>
 
   <footer>This page replaces the old README — nothing else to read before you start.</footer>
