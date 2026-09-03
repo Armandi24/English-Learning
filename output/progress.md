@@ -68,10 +68,14 @@ Free online placement test. **Baseline / day 45 / day 90.**
 
 | Metric | Value |
 |---|---|
-| Total sessions | 0 |
-| Sessions this month | 0 |
-| Longest run of consecutive days | 0 |
-| Last session | — |
+| Total sessions | 2 |
+| Sessions this month | 1 |
+| Longest run of consecutive days | 1 |
+| Last session | 2026-09-03 |
+
+> Sessions 1 (2026-08-25) and 2 (2026-09-03) both ran text-mode in the folder, no
+> clock — so the WPM and uninterrupted-speech tables above have no entries yet. They
+> start filling once voice sessions run in the Project. CEFR/vocab baselines still not taken.
 
 > Streaks help, but a broken streak makes people quit. **Missing a day is not a
 > failure and does not reset anything.** The only number that matters here is total sessions.
@@ -84,4 +88,4 @@ One line per month. No hedging, no encouragement — what actually changed.
 
 | Month | What actually improved | What is still stuck |
 |---|---|---|
-| | | |
+| Aug 2026 | Output stamina — holds a position under pushback, talks through word gaps without freezing or switching to Persian (confirmed S1 + S2). | Past tense under speed: irregular (choose→chose, become→became) and, as of S2, regular -ed dropping (start→started). Reads as B1 whenever the pace picks up. |

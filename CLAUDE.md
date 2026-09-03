@@ -138,8 +138,16 @@ output/
 working/
   session-brief.md     ← the paste-bridge to the Project, overwritten every prep
   sessions/            ← Session_YYYY-MM-DD_Topic.md, short
-project-chat/          ← package for the voice-mode Claude Project
+project-chat/
+  project-instructions.md ← the ONLY thing to paste into the Project's Instructions field — talk-side rules only
+  workflow.html        ← human-readable setup + daily-loop guide for laptop/voice/iPad
 ```
+
+**Never paste this `CLAUDE.md` into the voice Project.** It is the orchestrator's
+manual — the command table, git sync, file updates. Handed to the Project, it makes
+the Project impersonate this file-side assistant (talking about debrief and logging,
+inventing claims about files it can't see). The Project gets `project-instructions.md`
+and nothing else.
 
 `source/` files are reference-only — read, not edited during normal use.
 `output/` files are the working memory — updated at every `debrief`.
@@ -156,8 +164,9 @@ He can say **"just tell me"** at any point and you give the answer straight, no 
 
 ## One more thing
 
-Voice practice happens in the Claude Project built from `project-chat/`, since this
-environment has no voice mode. Three steps, every time:
+Voice practice happens in the Claude Project set up from
+`project-chat/project-instructions.md` (see `project-chat/workflow.html` for the
+one-time setup), since this environment has no voice mode. Three steps, every time:
 
 1. **Prep here** — say "prep." Copy the brief it writes to `working/session-brief.md`.
 2. **Talk in the Project** — paste the brief in, run the session, copy its end-summary block.

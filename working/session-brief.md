@@ -1,19 +1,28 @@
-# Session Brief — 2026-08-30 (Session 2)
+# Session brief — 2026-09-03 (session 3)
 
-**Topic/method:** Debate — "AI will replace most architecture jobs within ten years." Take the opposite side of whatever he argues, push hard follow-ups, force him past his first answer ("that's the easy version — what about X?"). No corrections during. Then 4/3/2 (block 3), topic: "Something I believe about my field that most people disagree with."
+**Topic:** Debate — "AI will replace most architecture jobs within ten years."
+**Method:** Debate (method 2). Take the OPPOSITE side of whatever he argues. Hard
+follow-ups, don't concede early, push him past his first answer ("that's the easy
+version — what about X?"). Then 4/3/2 on topic #26: "Something I believe about my
+field that most people disagree with."
 
-**Target these 3-6 errors (end summary only):**
-1. Irregular past tense: choose→chose, become→became (recurring pattern, watch closely)
-2. "graduated FROM high school" — missing preposition after past tense
-3. Word order: object before "with clients" (e.g. "discuss buying materials with clients," not reversed)
-4. Superlatives need "the" ("the best," not "best")
+**Target these 3 mistakes (they're all from last session):**
+1. Regular past **-ed dropping** under speed — "I start doing" → "I started". #1 target now.
+2. Missing **to- / -ing** before a verb — "be able manage" → "be able TO manage", "for take care" → "for taking care".
+3. Bare past participle, no auxiliary — "I done it" → "I did it" / "I've done it".
 
-**Do NOT re-teach:** nothing confirmed fixed yet (first full debrief). Note but don't over-praise: 4/3/2 held together and sped up in session 1 — not yet confirmed as a strength (needs 2+ sessions).
+**Do NOT re-teach / re-praise:** sustained output — he doesn't freeze, talks through
+gaps, self-corrects. Confirmed 2 sessions. Leave it alone, no cheerleading.
 
-**Phrase-bank due for review (ask him to use in a new sentence, don't just recognize):**
-- "ballpark figure" (a rough estimate)
-- "run in parallel" (do two things at once)
+**Phrase bank — due for review (retrieval first, don't show the phrase):**
+- ballpark figure (a rough estimate) — overdue
+- run in parallel (do two things at once) — due, weak use last time
+- a step change from X (a big jump, not gradual) — overdue
 
-**Today's tip (#2):** He/she is not automatic for him — Persian «او» has no gender. Slow down on this pronoun specifically until it's reflexive.
+**Tip #3:** Reach for a chunk, not a word. Before answering, ask: is there a
+ready-made phrase for this, not just a single vocabulary word?
 
-**Instruction to Project-side Claude:** Run the standard 45-min shape from `source/method.md` (warm-up → debate → 4/3/2 → end summary). Real B2 speed, idioms, contractions — no slowing down. Don't interrupt mid-thought; corrections at the end only, capped at 3-6, prioritizing the list above. No empty praise. Log WPM per 4/3/2 round. End with the standard summary block (corrections, 5 phrases to steal, one honest strength + one honest weakness, chunks used) so it can be pasted back here for debrief.
+**Instruction for Project-side Claude:** Open with the fixed voice reminder + tip #3.
+Run warm-up → debate (20 min) → 4/3/2 (10 min) → end summary (3–6 corrections, 5
+phrases to steal, one honest progress line). Cap corrections at 6, all at the end.
+Copy the end-summary block back for debrief.

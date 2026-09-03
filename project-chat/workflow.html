@@ -440,9 +440,14 @@
         <div class="when">Project settings → Instructions</div>
       </div>
     </div>
-    <p>Open <b>CLAUDE.md</b> in this folder, copy the whole file, paste it into the
-    Project's custom instructions field. That one file <i>is</i> the rulebook — rules,
-    the daily structure, the "do NOT" list, all of it.</p>
+    <p>Open <b>project-chat/project-instructions.md</b> in this folder, copy the whole
+    file, paste it into the Project's custom instructions field. That is the talk-side
+    rulebook — how to speak, how to correct, the "do NOT" list, the 45-min shape.</p>
+    <p style="margin-top:10px; margin-bottom:0;"><b>Do not paste <code>CLAUDE.md</code>
+    here.</b> That file is the orchestrator's manual — the command table, git sync, the
+    file-update steps. Give it to the Project and the Project starts impersonating the
+    file-side assistant: it talks about debrief and logging, and it invents claims about
+    files it cannot see.</p>
   </div>
 
   <div class="step">
@@ -493,7 +498,8 @@
     <b>Key files, if you're ever unsure where something lives:</b>
     <table class="filetable">
       <tr><th>File</th><th>Role</th><th>Where</th></tr>
-      <tr><td><code>CLAUDE.md</code></td><td>the whole rulebook</td><td>Project instructions</td></tr>
+      <tr><td><code>project-chat/project-instructions.md</code></td><td>the talk-side rulebook</td><td>Project instructions</td></tr>
+      <tr><td><code>CLAUDE.md</code></td><td>the orchestrator's manual — commands, git, file updates</td><td>Cowork only — never paste into the Project</td></tr>
       <tr><td><code>method.md, tips.md, topics.md</code></td><td>static reference</td><td>Project knowledge, once</td></tr>
       <tr><td><code>error-log.md, phrase-bank.md</code></td><td>the memory — updated every debrief</td><td>Project knowledge, refresh every few weeks</td></tr>
       <tr><td><code>working/session-brief.md</code></td><td>the paste-bridge, rewritten every prep</td><td>Cowork only</td></tr>

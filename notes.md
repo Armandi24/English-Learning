@@ -3,10 +3,12 @@
 **Created:** 2026-08-25 · **Skill:** English conversation (speaking fluency) ·
 **Level:** B1 → B2 · **Cadence:** ~45 min/day, most days · **L1:** Persian
 
-**Voice practice:** Claude Project on claude.ai, built from `project-chat/`.
-Workflow: prep here → talk in the Project → debrief here. See `project-chat/README.md`.
+**Voice practice:** Claude Project on claude.ai. Its Instructions field holds
+`project-chat/project-instructions.md` (talk-side rules only — NOT `CLAUDE.md`).
+Workflow: prep here → talk in the Project → debrief here. Setup guide:
+`project-chat/workflow.html`.
 
-**Last tip used:** #2 surfaced in the 2026-08-30 debate prep; today's inline session (2026-09-03) re-used #1 by mistake (started without `prep`). Next `prep` uses #3.
+**Last tip used:** #3, `prep` 2026-09-03 (session 3, debate prep). Next `prep` uses #4.
 
 **Last session:** 2026-09-03 (session 2) — client design presentation roleplay + 4/3/2 on
 "AI workspace setup". Ran inline in the folder (text, no voice), not via the Project.
