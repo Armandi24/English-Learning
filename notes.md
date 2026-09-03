@@ -10,8 +10,9 @@ Workflow: prep here → talk in the Project → debrief here. Setup guide:
 
 **Last tip used:** #3, `prep` 2026-09-03 (session 3, debate prep). Next `prep` uses #4.
 
-**Last solo:** 2026-09-03 — stage 1 (delayed), drill = shadow, episode = "Searching for
-life on another planet" (BBC 6 Minute English).
+**Last solo:** 2026-09-03 — stage 1 (delayed), drill = shadow, episode = "How reading
+shapes your brain" (BBC 6 Minute English) — note: I linked the wrong episode, he
+listened to this one instead.
 **Last weekly test:** none yet.
 
 **Last session:** 2026-09-03 (session 3) — debate method, topic freelancing vs. a
