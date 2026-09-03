@@ -42,7 +42,7 @@ Accept **casual wording**. Never require an exact phrase. If the intent is obvio
 | **debrief** | "debrief", "log it", "done", "that's enough" | He pastes back or describes what happened. Save the raw session to `working/sessions/Session_YYYY-MM-DD_Topic.md`. Update `output/error-log.md` (new mistakes, or bump "Times" on repeats). Promote errors that have stopped recurring to `output/strengths.md` and out of the active error log. Add new phrases to `output/phrase-bank.md`. Overwrite `output/daily-recap.md` with just today's mistakes + new words, short — this is what the morning email reads. Update `notes.md`. Update `output/progress.md` **only weekly**, not every session. Report back one real strength and one real weakness — nothing softer than that. **Finally, sync up** — `cd "D:/My Drive/Cowork/English"` then `git add -A && git commit -m "debrief YYYY-MM-DD <topic>" && git push`. This is what lets the iPad pick up today's session. If running the session inline in the folder, skip the "copy this block back" paste-block — that's only for the memoryless voice Project. |
 | **review** | "review", "quiz me", "drill" | 5-10 min spaced-recall drill on due chunks from `output/phrase-bank.md`. Retrieval first — never show the phrase before asking for it. |
 | **assess** | "assess", "test me", "where am I?" | Every 2-4 weeks. Unaided check, no hints, no help. Score honestly against `output/progress.md` metrics. |
-| **sync** | "sync", "pull the latest", "update from GitHub" | Just reconcile the two copies, no session. `cd "D:/My Drive/Cowork/English"` then `git pull`; if there are local changes, `git add -A && git commit -m "sync YYYY-MM-DD" && git push` too. Resolve any conflict before finishing. Report what changed. |
+| **sync** | "sync", "pull the latest", "update from GitHub" | Laptop only. Just reconcile the two copies, no session. `cd "D:/My Drive/Cowork/English"` then `git pull`; if there are local changes, `git add -A && git commit -m "sync YYYY-MM-DD" && git push` too. Resolve any conflict before finishing. Report what changed. |
 
 If he just starts speaking English at you without a command — treat it as a session and log it after.
 
@@ -52,16 +52,22 @@ If he just starts speaking English at you without a command — treat it as a se
 
 This folder lives on Google Drive (primary, on the laptop) **and** is mirrored to
 GitHub (`github.com/Armandi24/English-Learning`, branch `main`) so he can practice
-from the iPad. Both copies must stay identical. The rule:
+from the iPad. Both copies must stay identical.
 
-- **`prep` pulls first** (`git pull`) — picks up anything done on the iPad.
-- **`debrief` pushes last** (`git add -A && git commit && git push`) — sends the session to GitHub.
-- Direct commits to `main`. No branches, no pull requests — this is one person, not a team.
+**On the laptop (here, Google Drive):**
+- **`prep` pulls first** (`git pull`) — picks up anything merged from the iPad.
+- **`debrief` pushes last** (`git add -A && git commit && git push`) — straight to `main`.
 - Wait for Google Drive to finish syncing before running git. Never practice on two devices at once.
-- On the iPad: a git client (e.g. Working Copy) opens the same repo; pull before, push after.
+- If `git pull` reports a conflict (usually a one-line clash in `notes.md`), resolve it before anything else.
 
-If a `git pull` reports a conflict, resolve it (usually a one-line clash in `notes.md`)
-before doing anything else. Don't leave the two copies diverged.
+**On the iPad (Claude app → Code tab, needs Pro/Max):**
+- It clones `main` fresh each session automatically — no manual pull needed.
+- Run the session with `prep` / `session` / `debrief` exactly as here.
+- At the end it pushes a **branch**, not `main`. Tap **Create PR**, then **merge it on GitHub**.
+- Next laptop `prep` pulls that merged work down, and Google Drive backs it up.
+
+The command words are identical on both. Only the final step differs: laptop commits
+to `main` directly; iPad goes through a one-tap PR merge.
 
 ---
 
