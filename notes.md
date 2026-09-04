@@ -14,15 +14,16 @@ Workflow: prep here → talk in the Project → debrief here. Setup guide:
 (topic: net zero) — https://www.bbc.co.uk/learningenglish/english/course/experiment/unit-1/session-36
 **Last weekly test:** none yet.
 
-**Last session:** 2026-09-03 (session 3) — debate method, topic freelancing vs. a
-salaried studio job. Ran inline in the folder (text, no voice). Weakness to hunt next:
-**regular past -ed dropping under speed** ("I invent" → invented) — 2nd session on this,
-still not fixed, needs a targeted drill not just in-session catches. Also new: "I am
-agree" (extra auxiliary before a plain verb), "access to X" (drop the "to"), missing
-"would" for hypotheticals. Strength confirmed across 3 sessions: sustained output,
-sentences now lengthening without mid-thought stalls. **4/3/2 skipped again — postponed
-twice now, run it next session.** `output/progress.md`: session count bumped to 3,
-rest still weekly-only.
+**Last session:** 2026-09-04 (session 4) — roleplay (freelance contract negotiation,
+scope creep) + first 4/3/2 (finally ran, adapted to word-count shrink since this is
+text not voice: ~95→78→55 words, content held together). Ran inline in the folder.
+Weakness to hunt next: **regular past -ed dropping under speed** ("I create" →
+created) — 3rd session on this, still not fixed, needs a targeted drill not just
+in-session catches. Also: missing "to" before a verb (2nd time), 3rd-person -s
+agreement, "a" vs "an" before vowel sounds, noun-as-modifier staying singular.
+Strength: held ground in negotiation without folding, compressed the same content
+three times without losing the thread. `output/progress.md` still weekly-only —
+not updated this session.
 
 **Daily reminder routine:** `trig_01Vp55SDdmGSZyRHnMgwFQvC` ("English daily routine
 reminder (Cowork)"), fires daily 8:00 AM Asia/Tehran (cron `30 4 * * *` UTC). Reads

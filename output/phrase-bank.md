@@ -31,6 +31,8 @@ At `review`, drill only what's **due**. Retrieval first — never show the phras
 | no safety net | no backup if it fails | — | 0 | 2026-09-04 |
 | rent money | money you can't afford to gamble with | — | 0 | 2026-09-04 |
 | "that's not a plan, that's optimism" | dismiss a hope dressed up as a plan | — | 0 | 2026-09-04 |
+| put it in writing | get an agreement documented, not just spoken | "that could work, but let's put it in writing" (2026-09-04, negotiation roleplay) | 1 | 2026-09-05 |
+| scope creep | a project quietly growing beyond what was agreed | (noticed in session, not yet used in own sentence) | 0 | 2026-09-05 |
 
 ---
 

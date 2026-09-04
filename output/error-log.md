@@ -16,12 +16,12 @@ Format: `Date | What I said | Correct version | Why | Type | Times`
 | Date | What I said | Correct version | Why | Type | Times |
 |---|---|---|---|---|---|
 | 2026-08-25 | "I choose architecture" / "I choose glass" | "I chose ..." | irregular past tense: choose→chose | tense | 2 |
-| 2026-09-03 | "last month I start doing" / "I invent" | "... started doing" / "I invented" | regular past -ed dropped under speed (start/design/inspire/invent) | tense | 2 |
+| 2026-09-03 | "last month I start doing" / "I invent" / "I create" (2026-09-04) | "... started doing" / "I invented" / "I created" | regular past -ed dropped under speed (start/design/inspire/invent/create) | tense | 3 |
 | 2026-09-03 | "I done it in 8 months" | "I did it" / "I've done it" | bare past participle, no auxiliary "have" | tense | 1 |
 | 2026-09-03 | "access to my folders" | "access my folders" | "access" is transitive — no "to" before the object | preposition | 1 |
 | 2026-09-03 | "I become more experienced" (hypothetical) | "I would become more experienced" | a hypothetical / future outcome needs "would" | tense | 1 |
 | 2026-09-03 | "I am agree" | "I agree" | "agree" is the verb — no "am/is/are" in front of it | word-order | 1 |
-| 2026-09-03 | "so I'll be able manage" / "for take care" | "be able TO manage" / "for taking care" | missing to- / -ing before the verb | word-order | 1 |
+| 2026-09-03 | "so I'll be able manage" / "for take care" / "could be able create" (2026-09-04) | "be able TO manage" / "for taking care" / "be able TO create" | missing to- / -ing before the verb | word-order | 2 |
 | 2026-09-03 | "to do my all projects" | "to do all my projects" | "all" comes before the possessive | word-order | 1 |
 | 2026-08-25 | "I become an architect" | "I became an architect" | irregular past tense: become→became | tense | 1 |
 | 2026-08-25 | "I graduate my high school" | "I graduated from high school" | past tense + missing preposition "from" | tense | 1 |
@@ -32,6 +32,9 @@ Format: `Date | What I said | Correct version | Why | Type | Times`
 | 2026-08-25 | "in site decisions" | "on-site decisions" | preposition doesn't map from Persian, memorize as chunk | preposition | 1 |
 | 2026-08-25 | "finding best material" | "finding the best material" | superlatives need "the" | article | 1 |
 | 2026-08-25 | "discuss with clients buying materials" | "discuss buying materials with clients" | word order — object of "discuss" comes first | word-order | 1 |
+| 2026-09-04 | "which manage obsidian" | "which manages obsidian" | 3rd-person singular needs -s on the verb | word-order | 1 |
+| 2026-09-04 | "it is a intelligent device" | "an intelligent device" | "a" → "an" before a vowel sound | article | 1 |
+| 2026-09-04 | "I design buildings maps" | "I design building maps" | noun used as a modifier stays singular | word-choice | 1 |
 
 ---
 
