@@ -33,6 +33,16 @@ At `review`, drill only what's **due**. Retrieval first — never show the phras
 | "that's not a plan, that's optimism" | dismiss a hope dressed up as a plan | — | 0 | 2026-09-04 |
 | put it in writing | get an agreement documented, not just spoken | "that could work, but let's put it in writing" (2026-09-04, negotiation roleplay) | 1 | 2026-09-05 |
 | scope creep | a project quietly growing beyond what was agreed | (noticed in session, not yet used in own sentence) | 0 | 2026-09-05 |
+| streamline | make a process simpler/faster, cut extra steps | — | 0 | 2026-09-05 |
+| iterate | improve something step by step, in cycles | — | 0 | 2026-09-05 |
+| scalable | can grow bigger without breaking down | — | 0 | 2026-09-05 |
+| meticulous | extremely careful, detail-focused | — | 0 | 2026-09-05 |
+| versatile | able to do many different things well | — | 0 | 2026-09-05 |
+| prototype | a first working version, to test the idea | — | 0 | 2026-09-05 |
+| load-bearing | (wall/element) holds structural weight — also used figuratively | — | 0 | 2026-09-05 |
+| cohesive | fitting together as one connected whole | — | 0 | 2026-09-05 |
+| budget-conscious | careful about spending, watching costs | — | 0 | 2026-09-05 |
+| juggle multiple projects | manage several things at once without dropping one | — | 0 | 2026-09-05 |
 
 ---
 
