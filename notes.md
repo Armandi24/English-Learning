@@ -25,6 +25,16 @@ Strength: held ground in negotiation without folding, compressed the same conten
 three times without losing the thread. `output/progress.md` still weekly-only —
 not updated this session.
 
+**Physical notebooks (his system, not file-based):**
+1. **Draft** — white spiral. Raw/messy notes, vocab, first landing for anything.
+2. **Canon** — small cream notebook. Rules/ideas that survived Draft, worth keeping
+   (e.g. "always check subjunctive after 'if'").
+3. **North** — big sketchbook. One line per page, current live focus, kept in view.
+Flow: idea → Draft → if it holds up → Canon → if it's a current guiding focus → North.
+Weekly ~5 min Draft review to promote or drop. During sessions/debrief, tell him
+when something is worth writing down and which notebook fits (messy note → Draft,
+solid rule → Canon, current focus line → North).
+
 **Daily reminder routine:** `trig_01Vp55SDdmGSZyRHnMgwFQvC` ("English daily routine
 reminder (Cowork)"), fires daily 8:00 AM Asia/Tehran (cron `30 4 * * *` UTC). Reads
 `output/phrase-bank.md`, `output/error-log.md`, `notes.md` from this Drive folder,
