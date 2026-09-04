@@ -62,14 +62,16 @@ from the iPad. Both copies must stay identical.
 - Wait for Google Drive to finish syncing before running git. Never practice on two devices at once.
 - If `git pull` reports a conflict (usually a one-line clash in `notes.md`), resolve it before anything else.
 
-**On the iPad (Claude app → Code tab, needs Pro/Max):**
+**On the iPad (Claude app → Code tab, needs Pro/Max) / this environment (Cowork):**
 - It clones `main` fresh each session automatically — no manual pull needed.
 - Run the session with `prep` / `session` / `debrief` exactly as here.
-- At the end it pushes a **branch**, not `main`. Tap **Create PR**, then **merge it on GitHub**.
+- At the end it pushes a **branch**, not `main`. **Automatically** open the PR
+  (`head` = that branch, `base` = `main`) and merge it — no need to ask or wait for
+  a tap. Do this right after the `debrief` push, every time, without being asked.
 - Next laptop `prep` pulls that merged work down, and Google Drive backs it up.
 
 The command words are identical on both. Only the final step differs: laptop commits
-to `main` directly; iPad goes through a one-tap PR merge.
+to `main` directly; this environment/iPad goes through an (automatic) PR merge.
 
 ---
 
