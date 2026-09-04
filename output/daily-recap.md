@@ -6,23 +6,21 @@ new words, in short form — not a cumulative log. (Full history lives in
 
 ---
 
-**Date:** 2026-09-03 (session 3 — debate: freelancing vs. a studio job)
+**Date:** 2026-09-04 (session 4 — roleplay: contract negotiation + first 4/3/2)
 
 **Mistakes to remember:**
-- "I **invented**" — not "I invent". The -ed still drops when you speed up. Second
-  session running on this — it's the main one to fix.
-- "**access** my folders" — not "access to my folders". No "to" after "access".
-- "I **would** become more experienced" — not "I become...". A hypothetical result needs "would".
-- "I **agree**" — not "I am agree". "agree" is already the verb; drop "am".
-- "five hundred **dollars**" — not "dollar". Plural after a number.
+- "I **created** a folder" — not "I create". 3rd session now on regular past -ed
+  dropping under speed (start/invent/create). Top priority.
+- "which **manages** obsidian" — not "which manage". 3rd-person -s agreement.
+- "**an** intelligent device" — not "a intelligent". Use "an" before a vowel sound.
+- "be able **to** create" — not "be able create". Missing "to" before the verb, 2nd time.
+- "**building** maps" — not "buildings maps". Noun-as-modifier stays singular.
 
 **Words/phrases learned today:**
-- **trading X for Y** — giving up one thing to get another
-- **spread the risk across clients** — don't depend on one income source
-- **no safety net** — no backup if it fails
-- **rent money** — money you can't afford to gamble with
-- **"that's not a plan, that's optimism"** — a hope dressed up as a plan
+- **put it in writing** — get an agreement documented, not just spoken (used well!)
+- **scope creep** — a project quietly growing beyond what was agreed
 
-**One line:** Sentences are getting longer without stopping to self-correct mid-thought —
-delivery is smoothing out. But regular past -ed still collapses under pressure after two
-sessions on it; that's the one to fix. 4/3/2 skipped again — run it next time.
+**One line:** First 4/3/2 finally ran (postponed twice) — adapted to word-count
+shrinking since this is text, not voice. Content held together across all three cuts.
+Held his ground in a negotiation without folding. Regular past -ed still the stuck
+point, 3rd session running — needs a dedicated drill, not just in-session catches.
