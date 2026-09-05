@@ -14,16 +14,16 @@ Workflow: prep here → talk in the Project → debrief here. Setup guide:
 (topic: net zero) — https://www.bbc.co.uk/learningenglish/english/course/experiment/unit-1/session-36
 **Last weekly test:** none yet.
 
-**Last session:** 2026-09-04 (session 4) — roleplay (freelance contract negotiation,
-scope creep) + first 4/3/2 (finally ran, adapted to word-count shrink since this is
-text not voice: ~95→78→55 words, content held together). Ran inline in the folder.
-Weakness to hunt next: **regular past -ed dropping under speed** ("I create" →
-created) — 3rd session on this, still not fixed, needs a targeted drill not just
-in-session catches. Also: missing "to" before a verb (2nd time), 3rd-person -s
-agreement, "a" vs "an" before vowel sounds, noun-as-modifier staying singular.
-Strength: held ground in negotiation without folding, compressed the same content
-three times without losing the thread. `output/progress.md` still weekly-only —
-not updated this session.
+**Last session:** 2026-09-05 (session 5) — story retelling (black hole discovery)
++ 4/3/2 on "the tool I could not work without" (Revit, ~81→57→50 words, content
+held together across all three rounds). Ran inline in the folder.
+Weakness to hunt next: **regular past -ed dropping under speed** ("reveal" →
+revealed) — **4th session running**, still not fixed, needs a dedicated drill, not
+just in-session catches. Also new this session: missing preposition after "tell",
+"every" + singular noun, I/it mix-up with uncountable "work", missing article "a".
+Strength: 4/3/2 content stayed coherent across all three shrinking rounds even
+as grammar accuracy slipped under time pressure — speed costs grammar before
+content. `output/progress.md` still weekly-only — not updated this session.
 
 **Notes system — Obsidian vault (replaces Draft & Canon notebooks):**
 `vault/` in this repo (Obsidian, synced via GitHub ⇄ Google Drive same as everything

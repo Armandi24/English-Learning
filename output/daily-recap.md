@@ -6,21 +6,22 @@ new words, in short form — not a cumulative log. (Full history lives in
 
 ---
 
-**Date:** 2026-09-04 (session 4 — roleplay: contract negotiation + first 4/3/2)
+**Date:** 2026-09-05 (session 5 — story retelling + 4/3/2 on "the tool I can't work without")
 
 **Mistakes to remember:**
-- "I **created** a folder" — not "I create". 3rd session now on regular past -ed
-  dropping under speed (start/invent/create). Top priority.
-- "which **manages** obsidian" — not "which manage". 3rd-person -s agreement.
-- "**an** intelligent device" — not "a intelligent". Use "an" before a vowel sound.
-- "be able **to** create" — not "be able create". Missing "to" before the verb, 2nd time.
-- "**building** maps" — not "buildings maps". Noun-as-modifier stays singular.
+- "a team ... **reveal**" — not "reveal". 4th session now on regular past -ed
+  dropping under speed (start/invent/create/reveal). Still the top priority.
+- "they told **to** anyone" — not "told to". "Tell" takes no preposition before the person.
+- "every **stages**" — not "stages". "Every" always takes a singular noun.
+- "**I** makes my **works** faster" — mixed up "I"/"it" (Revit is "it"), and "work" is uncountable.
+- "because **at** has 3d view" — "at"/"it" mix-up, plus missing article "a" before "3D view".
 
 **Words/phrases learned today:**
-- **put it in writing** — get an agreement documented, not just spoken (used well!)
-- **scope creep** — a project quietly growing beyond what was agreed
+- **didn't believe it at first** — surprised by a result, doubted it initially
+- **the hardest part wasn't X — it was Y** — contrast structure, used well in own example
 
-**One line:** First 4/3/2 finally ran (postponed twice) — adapted to word-count
-shrinking since this is text, not voice. Content held together across all three cuts.
-Held his ground in a negotiation without folding. Regular past -ed still the stuck
-point, 3rd session running — needs a dedicated drill, not just in-session catches.
+**One line:** 4/3/2 content held together and stayed coherent across all three
+shrinking rounds — good. But grammar accuracy broke down under time pressure in
+Round 3 ("I makes," "at has") — speed costs grammar before it costs content.
+Regular past -ed dropping is now 4 sessions running, still not fixed — needs a
+dedicated drill, not just in-session catches.

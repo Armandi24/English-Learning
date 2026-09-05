@@ -16,7 +16,7 @@ Format: `Date | What I said | Correct version | Why | Type | Times`
 | Date | What I said | Correct version | Why | Type | Times |
 |---|---|---|---|---|---|
 | 2026-08-25 | "I choose architecture" / "I choose glass" | "I chose ..." | irregular past tense: choose→chose | tense | 2 |
-| 2026-09-03 | "last month I start doing" / "I invent" / "I create" (2026-09-04) | "... started doing" / "I invented" / "I created" | regular past -ed dropped under speed (start/design/inspire/invent/create) | tense | 3 |
+| 2026-09-03 | "last month I start doing" / "I invent" / "I create" (2026-09-04) / "a team ... reveal" (2026-09-05) | "... started doing" / "I invented" / "I created" / "revealed" | regular past -ed dropped under speed (start/design/inspire/invent/create/reveal) | tense | 4 |
 | 2026-09-03 | "I done it in 8 months" | "I did it" / "I've done it" | bare past participle, no auxiliary "have" | tense | 2 |
 | 2026-09-03 | "access to my folders" | "access my folders" | "access" is transitive — no "to" before the object | preposition | 1 |
 | 2026-09-03 | "I become more experienced" (hypothetical) | "I would become more experienced" | a hypothetical / future outcome needs "would" | tense | 1 |
@@ -36,6 +36,10 @@ Format: `Date | What I said | Correct version | Why | Type | Times`
 | 2026-09-04 | "it is a intelligent device" / "a office building" (2026-09-04 chat log) | "an intelligent device" / "an office building" | "a" → "an" before a vowel sound | article | 2 |
 | 2026-09-04 | "I design buildings maps" | "I design building maps" | noun used as a modifier stays singular | word-choice | 1 |
 | 2026-09-04 | "programed", "comming" (written chat log) | "programmed", "coming" | doubled consonant before -ed/-ing: stressed 1-syllable words double the final consonant (come→coming is the exception, no double; program→programmed does double, stress falls on last syllable) | word-choice | 1 |
+| 2026-09-05 | "they told to anyone" | "they told anyone" | "tell" takes no preposition before the person | preposition | 1 |
+| 2026-09-05 | "for almost every stages" | "every stage" | "every" always takes a singular noun | plural | 1 |
+| 2026-09-05 | "I makes my works faster" | "it makes my work faster" | mixed up "I"/"it" (Revit is "it"), "work" here is uncountable, no -s | word-choice | 1 |
+| 2026-09-05 | "because at has 3d view" | "because it has a 3D view" | "at"/"it" mix-up plus missing article "a" before a countable noun | article | 1 |
 
 ---
 

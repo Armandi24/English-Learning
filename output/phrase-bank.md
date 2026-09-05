@@ -43,6 +43,8 @@ At `review`, drill only what's **due**. Retrieval first — never show the phras
 | cohesive | fitting together as one connected whole | — | 0 | 2026-09-05 |
 | budget-conscious | careful about spending, watching costs | — | 0 | 2026-09-05 |
 | juggle multiple projects | manage several things at once without dropping one | — | 0 | 2026-09-05 |
+| didn't believe it at first | surprised by a result, doubted it initially | — | 0 | 2026-09-06 |
+| the hardest part wasn't X — it was Y | contrast structure for what was actually hard | "the hardest part wasn't the design, it was getting the client to agree" (2026-09-05, own example) | 1 | 2026-09-08 |
 
 ---
 
