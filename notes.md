@@ -33,15 +33,12 @@ only tell him what to write and where.
 - **Chunks.md** — fixed phrases/collocations ("in terms of", "on the other hand")
 - **Grammar.md** — rules he needs to consult, with his own examples
 - **Mistakes.md** — real errors he made — his actual curriculum
-Each item also gets a stage, carrying over the old notebook logic:
+Each item also gets a stage, carrying over the old notebook logic (North dropped):
 - **Draft-stage** — raw/messy, first landing, not yet confirmed
-- **Canon-stage** — survived, worth keeping long-term (e.g. "always check
-  subjunctive after 'if'")
+- **Blue-stage** — survived, worth keeping long-term (e.g. "always check
+  subjunctive after 'if'") — this was called Canon-stage before, renamed to Blue
 During sessions/debrief, tell him both: which note fits (by type) AND whether it's
-Draft-stage or Canon-stage (by how solid it is).
-**North** (big sketchbook, one line per page, current live focus, kept in view) —
-no vault note replaces this yet; assuming it stays the physical notebook unless he
-says otherwise.
+Draft-stage or Blue-stage (by how solid it is).
 
 **Daily reminder routine:** `trig_01Vp55SDdmGSZyRHnMgwFQvC` ("English daily routine
 reminder (Cowork)"), fires daily 8:00 AM Asia/Tehran (cron `30 4 * * *` UTC). Reads
