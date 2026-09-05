@@ -25,15 +25,23 @@ Strength: held ground in negotiation without folding, compressed the same conten
 three times without losing the thread. `output/progress.md` still weekly-only —
 not updated this session.
 
-**Physical notebooks (his system, not file-based):**
-1. **Draft** — white spiral. Raw/messy notes, vocab, first landing for anything.
-2. **Canon** — small cream notebook. Rules/ideas that survived Draft, worth keeping
-   (e.g. "always check subjunctive after 'if'").
-3. **North** — big sketchbook. One line per page, current live focus, kept in view.
-Flow: idea → Draft → if it holds up → Canon → if it's a current guiding focus → North.
-Weekly ~5 min Draft review to promote or drop. During sessions/debrief, tell him
-when something is worth writing down and which notebook fits (messy note → Draft,
-solid rule → Canon, current focus line → North).
+**Notes system — Obsidian vault (replaces Draft & Canon notebooks):**
+`vault/` in this repo (Obsidian, synced via GitHub ⇄ Google Drive same as everything
+else). He writes into it himself, by hand, in Obsidian — I never edit these files,
+only tell him what to write and where.
+- **Vocabulary.md** — new words, one row each, his own sentence required
+- **Chunks.md** — fixed phrases/collocations ("in terms of", "on the other hand")
+- **Grammar.md** — rules he needs to consult, with his own examples
+- **Mistakes.md** — real errors he made — his actual curriculum
+Each item also gets a stage, carrying over the old notebook logic:
+- **Draft-stage** — raw/messy, first landing, not yet confirmed
+- **Canon-stage** — survived, worth keeping long-term (e.g. "always check
+  subjunctive after 'if'")
+During sessions/debrief, tell him both: which note fits (by type) AND whether it's
+Draft-stage or Canon-stage (by how solid it is).
+**North** (big sketchbook, one line per page, current live focus, kept in view) —
+no vault note replaces this yet; assuming it stays the physical notebook unless he
+says otherwise.
 
 **Daily reminder routine:** `trig_01Vp55SDdmGSZyRHnMgwFQvC` ("English daily routine
 reminder (Cowork)"), fires daily 8:00 AM Asia/Tehran (cron `30 4 * * *` UTC). Reads
