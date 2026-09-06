@@ -71,7 +71,7 @@ format every week so the number means something. A down week is not smoothed ove
 
 | Date | Error-log hits | Phrase hits | R1 WPM | Score | Missed → targeted next |
 |---|---|---|---|---|---|
-| | | | | | |
+| 2026-09-06 | 5/6 | 3/3 (1 near-miss) | n/a (text mode) | 8/9 | present perfect vs. future mix-up; "scope creep" collocation (needs "has"/"is suffering from", not "is on") |
 
 ---
 
