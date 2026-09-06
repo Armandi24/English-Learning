@@ -12,7 +12,9 @@ Workflow: prep here → talk in the Project → debrief here. Setup guide:
 
 **Last solo:** 2026-09-03 — stage 1 (delayed), drill = shadow, episode = his own pick
 (topic: net zero) — https://www.bbc.co.uk/learningenglish/english/course/experiment/unit-1/session-36
-**Last weekly test:** none yet.
+**Last weekly test:** 2026-09-06 — score 8/9 (error-log 5/6, phrases 3/3). Missed:
+present perfect vs. future mix-up (not a real recurring error), and "scope creep"
+collocation — said "is on scope creep", needs "has"/"is suffering from".
 
 **Last session:** 2026-09-05 (session 5) — story retelling (black hole discovery)
 + 4/3/2 on "the tool I could not work without" (Revit, ~81→57→50 words, content

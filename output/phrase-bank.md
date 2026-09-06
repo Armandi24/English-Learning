@@ -24,7 +24,7 @@ At `review`, drill only what's **due**. Retrieval first — never show the phras
 | Chunk | Meaning | My example sentence | Uses | Next review |
 |---|---|---|---|---|
 | ballpark figure | a rough estimate, not exact | (noticed in session, not yet used in own sentence) | 0 | 2026-08-26 |
-| run in parallel | do two things at the same time | "they can work almost in parallel" (2026-09-03, roleplay — near-miss, weak use) | 1 | 2026-09-06 |
+| run in parallel | do two things at the same time | "I could run all disciplines in parallel." (2026-09-06, weekly test) | 2 | 2026-09-13 |
 | a step change from X | a big jump in quality, not gradual | "Persistent memory is a step change from a normal chatbot." | 0 | 2026-09-04 |
 | trading X for Y | giving up one thing to get another | — | 0 | 2026-09-04 |
 | spread the risk across clients | not depending on one source of income | — | 0 | 2026-09-04 |
@@ -32,7 +32,7 @@ At `review`, drill only what's **due**. Retrieval first — never show the phras
 | rent money | money you can't afford to gamble with | — | 0 | 2026-09-04 |
 | "that's not a plan, that's optimism" | dismiss a hope dressed up as a plan | — | 0 | 2026-09-04 |
 | put it in writing | get an agreement documented, not just spoken | "that could work, but let's put it in writing" (2026-09-04, negotiation roleplay) | 1 | 2026-09-05 |
-| scope creep | a project quietly growing beyond what was agreed | (noticed in session, not yet used in own sentence) | 0 | 2026-09-05 |
+| scope creep | a project quietly growing beyond what was agreed | "English practice project ... is on scope creep" (2026-09-06, weekly test — near-miss, wrong verb: needs "has"/"is suffering from") | 0 | 2026-09-07 |
 | streamline | make a process simpler/faster, cut extra steps | — | 0 | 2026-09-05 |
 | iterate | improve something step by step, in cycles | — | 0 | 2026-09-05 |
 | scalable | can grow bigger without breaking down | — | 0 | 2026-09-05 |
@@ -43,7 +43,7 @@ At `review`, drill only what's **due**. Retrieval first — never show the phras
 | cohesive | fitting together as one connected whole | — | 0 | 2026-09-05 |
 | budget-conscious | careful about spending, watching costs | — | 0 | 2026-09-05 |
 | juggle multiple projects | manage several things at once without dropping one | — | 0 | 2026-09-05 |
-| didn't believe it at first | surprised by a result, doubted it initially | — | 0 | 2026-09-06 |
+| didn't believe it at first | surprised by a result, doubted it initially | "I can make my learning apps by myself. I didn't believe it at first." (2026-09-06, weekly test) | 1 | 2026-09-09 |
 | the hardest part wasn't X — it was Y | contrast structure for what was actually hard | "the hardest part wasn't the design, it was getting the client to agree" (2026-09-05, own example) | 1 | 2026-09-08 |
 
 ---
