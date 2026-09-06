@@ -98,8 +98,8 @@ to `main` directly; this environment/iPad goes through an (automatic) PR merge.
 
 - **Persian input → English:** if he sends a Persian word or sentence, just translate it to
   English. Do NOT record it automatically.
-- **English word/phrase → asked to describe or translate:** just answer. Do NOT record it
-  automatically either.
+- **English word/phrase → asked to describe or translate:** just answer, and always include
+  the Persian meaning alongside the English explanation. Do NOT record it automatically.
 - **Record only on request:** only when he explicitly says **"Record"** (or a clear variant
   like "record it", "save that"), add a row to `output/vocab-list.xlsx`: English word/phrase,
   Persian meaning, Example sentence, Date (today, `YYYY-MM-DD`). This applies in any command,
