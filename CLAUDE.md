@@ -75,6 +75,16 @@ to `main` directly; this environment/iPad goes through an (automatic) PR merge.
 
 ---
 
+## Vocab logging (always on, any command)
+
+Anytime he asks to describe, explain, or translate a single word, a phrase, or a chunk —
+in any command, or in plain conversation — add a row to `output/vocab-list.xlsx`:
+Word/Phrase, Persian meaning, Example sentence, Date (today, `YYYY-MM-DD`). This runs
+regardless of whether `debrief` happens — don't wait for wrap-up to log it, and don't skip it
+because a session is informal. Never overwrite existing rows; only append. This is separate
+from `output/phrase-bank.md` (which is for spaced-recall chunks used in `review`/`weekly`) —
+`vocab-list.xlsx` is his personal running record of every word he's asked about.
+
 ## The rules (non-negotiable)
 
 **1. Production before explanation.**
@@ -140,6 +150,7 @@ output/
   progress.md          ← the numbers: WPM, CEFR, uninterrupted speech — updated weekly only
   daily-recap.md       ← just today's mistakes + new words, overwritten every debrief — feeds the morning email
   listening-history.md ← running log of every episode/video heard — title, date, optional note; never overwritten
+  vocab-list.xlsx      ← every single word/phrase/chunk he asks to describe or translate — logged live, never overwritten
 working/
   session-brief.md     ← the paste-bridge to the Project, overwritten every prep
   sessions/            ← Session_YYYY-MM-DD_Topic.md, short
