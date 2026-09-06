@@ -31,6 +31,25 @@ pasted into it. So the shape is fixed:
 `working/session-brief.md` is the single paste-bridge between the two. Nothing else
 crosses over automatically.
 
+## Start of a new chat — recommend, don't just list
+
+Before showing the 7 commands, check `notes.md` (the "Last …" lines), `output/progress.md`
+(Weekly test table), and `output/listening-history.md`, and **recommend one command** as
+today's priority, with a short reason (e.g. "I recommend `weekly` — it's been 9 days since
+your last test" or "I recommend `solo` — you haven't done it since Tuesday"). Then still list
+all 7 so he can pick something else instead.
+
+The point is to stop him quietly skipping the same command every time (usually `solo` or
+`review`, since they have no strict cadence). Rough priority order when more than one is
+overdue:
+1. `weekly` overdue (>7 days since the last row in `output/progress.md`, or none yet)
+2. `solo` not done since yesterday (check "Last solo" in `notes.md`)
+3. `review` not done in a while (check "Last review" in `notes.md` — if that line doesn't
+   exist yet, start writing it: `Last review: YYYY-MM-DD`)
+4. `assess` overdue (>4 weeks, or none yet — check "Last assess" in `notes.md`, start writing
+   it if missing)
+5. otherwise recommend `prep`/`session` as the default daily practice
+
 ## The 7 commands
 
 Accept **casual wording**. Never require an exact phrase. If the intent is obvious, run it.
@@ -41,9 +60,9 @@ Accept **casual wording**. Never require an exact phrase. If the intent is obvio
 | **session** | "session", "let's talk", "go", or just launching into English | Run the practice inline per `source/method.md` — warm-up → one rotation method → 4/3/2 → end summary. Do NOT redirect him to the voice Project; if he wants voice mode he'll say so. Log it after with `debrief`. |
 | **debrief** | "debrief", "log it", "done", "that's enough" | He pastes back or describes what happened. Save the raw session to `working/sessions/Session_YYYY-MM-DD_Topic.md`. Update `output/error-log.md` (new mistakes, or bump "Times" on repeats). Promote errors that have stopped recurring to `output/strengths.md` and out of the active error log. Add new phrases to `output/phrase-bank.md`. Overwrite `output/daily-recap.md` with just today's mistakes + new words, short — this is what the morning email reads. Update `notes.md`. Update `output/progress.md` **only weekly**, not every session. Report back one real strength and one real weakness — nothing softer than that. **Finally, sync up** — `cd "D:/My Drive/Cowork/English"` then `git add -A && git commit -m "debrief YYYY-MM-DD <topic>" && git push`. This is what lets the iPad pick up today's session. If running the session inline in the folder, skip the "copy this block back" paste-block — that's only for the memoryless voice Project. |
 | **solo** | "solo", "my drill", "what do I shadow", "solo practice" | The daily ~10-min solo prescription — no session, no debrief, keep it under ~10 lines. Read the "Last solo" line in `notes.md` and `output/error-log.md`. **Search the web** for ONE podcast episode at his level (target 70-80% understood on first listen — see `source/references.md`); name it, where to find it, and a specific 60-90s stretch to shadow. State today's **shadowing stage** (delayed → simultaneous → prosodic — advance only if the last clip felt easy) and the **sound to hunt** (top climbing item in `output/error-log.md`). Give today's **rotation drill** — shadow / record-and-compare / read-aloud / self-talk — not the same as last time. List **3 due phrases** from `output/phrase-bank.md`. Write one line back to `notes.md`: `Last solo: YYYY-MM-DD — <stage>, <drill>, <episode>`. Add a row to `output/listening-history.md` (date, title/topic, link, optional note) — also add a row there any time he mentions listening to something outside `solo` (YouTube, an article's audio, anything). No git, no session note — `listening-history.md` rides along on the next push like the rest. |
-| **review** | "review", "quiz me", "drill" | 5-10 min spaced-recall drill on due chunks from `output/phrase-bank.md` **and** recorded words from `output/vocab-list.xlsx`. Mix both sources. Retrieval first — never show the phrase/word before asking for it: give the Persian meaning or a blank in an example sentence, he produces the English word cold. |
+| **review** | "review", "quiz me", "drill" | 5-10 min spaced-recall drill on due chunks from `output/phrase-bank.md` **and** recorded words from `output/vocab-list.xlsx`. Mix both sources. Retrieval first — never show the phrase/word before asking for it: give the Persian meaning or a blank in an example sentence, he produces the English word cold. Write `Last review: YYYY-MM-DD` to `notes.md`. |
 | **weekly** | "weekly", "weekly test", "quiz week" | Once a week. Graded, closed-book, no hints, ~15 min — retrieval, not re-reading. **(1) Error-log retrieval:** give him the situation, he produces the corrected sentence cold; mark each hit/miss. A miss keeps its `Times` count and is targeted in the next `prep`. **(2) Phrase-bank recall:** due chunks cued by meaning only — he produces the phrase, then a new sentence with it. **(3) One 4/3/2 R1 round** for a WPM number. Score out of the fixed total → write the row to the **Weekly test** table in `output/progress.md` (a down week stays visible). Update `notes.md` with the score + what was missed. **Then sync up** — `cd "D:/My Drive/Cowork/English"` then `git add -A && git commit -m "weekly test YYYY-MM-DD" && git push`. This is enforcement; `assess` stays the deeper level check. |
-| **assess** | "assess", "test me", "where am I?" | Every 2-4 weeks. Unaided check, no hints, no help. Score honestly against `output/progress.md` metrics. |
+| **assess** | "assess", "test me", "where am I?" | Every 2-4 weeks. Unaided check, no hints, no help. Score honestly against `output/progress.md` metrics. Write `Last assess: YYYY-MM-DD` to `notes.md`. |
 | **sync** | "sync", "pull the latest", "update from GitHub" | Laptop only. Just reconcile the two copies, no session. `cd "D:/My Drive/Cowork/English"` then `git pull`; if there are local changes, `git add -A && git commit -m "sync YYYY-MM-DD" && git push` too. Resolve any conflict before finishing. Report what changed. |
 
 If he just starts speaking English at you without a command — treat it as a session and log it after.
