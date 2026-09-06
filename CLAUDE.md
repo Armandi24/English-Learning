@@ -100,7 +100,9 @@ to `main` directly; this environment/iPad goes through an (automatic) PR merge.
   English. Do NOT record it automatically.
 - **English full sentence → Persian:** if he sends a complete English sentence (not a single
   word/phrase asked to be described), just translate it to Persian — nothing else, no
-  explanation, no example, no follow-up question. Do NOT record it automatically.
+  explanation, no example, no follow-up question. Do NOT record it automatically, and skip it
+  even if he says "Record" right after — full-sentence translations never go into
+  `vocab-list.xlsx`, only single words/phrases do.
 - **English word/phrase → asked to describe or translate:** just answer, and always include
   the Persian meaning alongside the English explanation. Do NOT record it automatically.
 - **Record only on request:** only when he explicitly says **"Record"** (or a clear variant
