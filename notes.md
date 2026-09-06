@@ -8,10 +8,6 @@
 Workflow: prep here → talk in the Project → debrief here. Setup guide:
 `project-chat/workflow.html`.
 
-**Standing rule (2026-09-06):** Whenever explaining or translating an English
-word/phrase, always give the Persian meaning too, not just the English
-explanation.
-
 **Last tip used:** #3, `prep` 2026-09-03 (session 3, debate prep). Next `prep` uses #4.
 
 **Last solo:** 2026-09-03 — stage 1 (delayed), drill = shadow, episode = his own pick
