@@ -75,15 +75,18 @@ to `main` directly; this environment/iPad goes through an (automatic) PR merge.
 
 ---
 
-## Vocab logging (always on, any command)
+## Translation & vocab logging (always on, any command)
 
-Anytime he asks to describe, explain, or translate a single word, a phrase, or a chunk —
-in any command, or in plain conversation — add a row to `output/vocab-list.xlsx`:
-Word/Phrase, Persian meaning, Example sentence, Date (today, `YYYY-MM-DD`). This runs
-regardless of whether `debrief` happens — don't wait for wrap-up to log it, and don't skip it
-because a session is informal. Never overwrite existing rows; only append. This is separate
-from `output/phrase-bank.md` (which is for spaced-recall chunks used in `review`/`weekly`) —
-`vocab-list.xlsx` is his personal running record of every word he's asked about.
+- **Persian input → English:** if he sends a Persian word or sentence, just translate it to
+  English. Do NOT record it automatically.
+- **English word/phrase → asked to describe or translate:** just answer. Do NOT record it
+  automatically either.
+- **Record only on request:** only when he explicitly says **"Record"** (or a clear variant
+  like "record it", "save that"), add a row to `output/vocab-list.xlsx`: English word/phrase,
+  Persian meaning, Example sentence, Date (today, `YYYY-MM-DD`). This applies in any command,
+  or in plain conversation, in either translation direction. Never overwrite existing rows —
+  only append. This is separate from `output/phrase-bank.md` (spaced-recall chunks used in
+  `review`/`weekly`) — `vocab-list.xlsx` is his personal running record of words he chose to save.
 
 ## The rules (non-negotiable)
 
